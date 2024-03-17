@@ -20,9 +20,11 @@ This is a full documentation of the program. The program is created to be as a M
 # Function Descriptions
     createBooking(char customerName[], int seatNumber, char status[])
 Creates a new booking with the customer's name, desired seat number, and booking status. It dynamically allocates memory for a new Booking structure and initializes it with provided values.
+  [<img src="https://github.com/Psychopass-crypto/Movies_Booking_System/blob/main/Screenshot%202024-03-17%20at%2020.18.48.png"/>](https://github.com/Psychopass-crypto/Movies_Booking_System/blob/main/Screenshot%202024-03-17%20at%2020.18.48.png)
 
     createQueue(char movieName[], int maxSeats)
 Initializes a queue for managing bookings for a specific movie, setting up the maximum number of seats available for reservation.
+  [<img src="https://github.com/Psychopass-crypto/Movies_Booking_System/blob/main/Screenshot%202024-03-17%20at%2020.18.55.png"/>](https://github.com/Psychopass-crypto/Movies_Booking_System/blob/main/Screenshot%202024-03-17%20at%2020.18.55.png)
 
      isEmpty(Queue *queue)
 Checks whether a given queue is empty, facilitating decisions in other functions regarding queue operations.
