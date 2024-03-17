@@ -28,6 +28,8 @@ Initializes a queue for managing bookings for a specific movie, setting up the m
 
      isEmpty(Queue *queue)
 Checks whether a given queue is empty, facilitating decisions in other functions regarding queue operations.
+ [<img src="https://github.com/Psychopass-crypto/Movies_Booking_System/blob/main/IsEmpty.png"/>](https://github.com/Psychopass-crypto/Movies_Booking_System/blob/main/IsEmpty.png)
+
 
     enqueue(Queue *mainQueue, Queue *waitingList, char customerName[], int seatNumber, char status[])
 Handles the addition of new bookings. It places bookings in the main queue until it reaches capacity, after which bookings are added to the waiting list. This function also deals with automatic seat reassignment if the chosen seat is already taken.
