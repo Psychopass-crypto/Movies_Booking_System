@@ -41,3 +41,15 @@ Automatically transfers the first booking from the waiting list to the main queu
 
     displayBookings(Queue *queue)
 Displays all bookings in a queue, including the waiting list, providing users with information about current reservations.
+
+
+# Design Choice && Challenges
+    'Dynamic Seat Assignment'
+When we was trying to book a seat, we found that two people can book the same seat at the same time, so what we did is create a dynamic seat assignment, where we did assign a random seat selection from the available seats, and limit the random seats assignment number to the number of spots available in the queue.
+
+    'Managing the Waiting List'
+Building an automatic transfer from the waiting list to the Main list. Especially when we did try to ensure that the transfered booking has a valid seat and the seat isn't duplicated. So we let the program first check the avaiabilities of the seats then assign.
+
+    'Memory Management'
+We still face that problem, given the dynamic allocation for each new booking.
+
