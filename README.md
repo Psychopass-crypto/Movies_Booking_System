@@ -63,3 +63,9 @@ Building an automatic transfer from the waiting list to the Main list. Especiall
     'Memory Management'
 We still face that problem, given the dynamic allocation for each new booking.
 
+
+# Authors:
+
+**Youness Aboukad 119691**
+**Wassim Assili 135954**
+
