@@ -66,6 +66,6 @@ We still face that problem, given the dynamic allocation for each new booking.
 
 # Authors:
 
-**Youness Aboukad 119691**
+**Youness Aboukad 119691** ||
 **Wassim Assili 135954**
 
