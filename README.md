@@ -5,8 +5,11 @@ The Movie Booking System is a C program designed to manage seat reservations for
 
 # Features
 --Book Reservations: Users can book reservations with their preferred seat numbers.
---Waiting List: If the main queue is full, additional bookings are placed on a waiting list.
---Cancel Reservations: Users can cancel their reservations. If there's a waiting list, the first booking from the list is automatically transferred to the main queue.
+
+
+--Waiting List: If the main queue is full, additional bookings are placed on a waiting list.--
+
+--Cancel Reservations: Users can cancel their reservations. If there's a waiting list, the first booking from the list is automatically-- transferred to the main queue.
 --Seat Assignment: If the requested seat is taken, the system assigns a random available seat.
 --Display Bookings: View all current bookings in the main queue and the waiting list.
 
