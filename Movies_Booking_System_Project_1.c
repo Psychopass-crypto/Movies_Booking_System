@@ -28,7 +28,7 @@ int isEmpty(Queue *queue);
 void enqueue(Queue *mainQueue, Queue *waitingList, char customerName[], int seatNumber, char status[]);
 void dequeue(Queue *queue);
 void cancelReservation(Queue *queue, char customerName[], int seatNumber);
-void transferFromWaitingListToMain(Queue *mainQueue, Queue *waitingList);
+void transferToMain(Queue *mainQueue, Queue *waitingList);
 void displayBookings(Queue *queue);
 
 
@@ -180,7 +180,7 @@ void cancelReservation(Queue *queue, char customerName[], int seatNumber)
     printf("Reservation not found.\n");
 }
 
-void transferFromWaitingListToMain(Queue *mainQueue, Queue *waitingList)
+void transferToMain(Queue *mainQueue, Queue *waitingList)
 {
     if (isEmpty(waitingList))
     {
@@ -299,7 +299,7 @@ int main()
             printf("Enter seat number: ");
             scanf("%d", &seatNumber);
             cancelReservation(movieQueue, customerName, seatNumber);
-            transferFromWaitingListToMain(movieQueue, waitingList);
+            transferToMain(movieQueue, waitingList);
             break;
         case 3:
             printf("\n--- Main List ---\n");
