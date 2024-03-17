@@ -24,6 +24,7 @@ Creates a new booking with the customer's name, desired seat number, and booking
 
     createQueue(char movieName[], int maxSeats)
 Initializes a queue for managing bookings for a specific movie, setting up the maximum number of seats available for reservation.
+  [<img src="https://github.com/Psychopass-crypto/Movies_Booking_System/blob/main/Screenshot%202024-03-17%20at%2020.18.55.png"/>](https://github.com/Psychopass-crypto/Movies_Booking_System/blob/main/Screenshot%202024-03-17%20at%2020.18.55.png)
 
      isEmpty(Queue *queue)
 Checks whether a given queue is empty, facilitating decisions in other functions regarding queue operations.
