@@ -34,6 +34,7 @@ Handles the addition of new bookings. It places bookings in the main queue until
 
     dequeue(Queue *queue)
 Removes a booking from the front of the queue, typically used for managing cancellations in the main queue.
+ [<img src="https://github.com/Psychopass-crypto/Movies_Booking_System/blob/main/Screenshot%202024-03-17%20at%2020.49.47.png"/>](https://github.com/Psychopass-crypto/Movies_Booking_System/blob/main/Screenshot%202024-03-17%20at%2020.49.47.png)
 
     cancelReservation(Queue *queue, char customerName[], int seatNumber)
 Allows users to cancel their reservations. It searches for the booking by name and seat number, marking it as "cancelled" or removing it from the queue.
@@ -43,6 +44,7 @@ Automatically transfers the first booking from the waiting list to the main queu
 
     displayBookings(Queue *queue)
 Displays all bookings in a queue, including the waiting list, providing users with information about current reservations.
+[<img src="https://github.com/Psychopass-crypto/Movies_Booking_System/blob/main/Screenshot%202024-03-17%20at%2020.50.34.png"/>](https://github.com/Psychopass-crypto/Movies_Booking_System/blob/main/Screenshot%202024-03-17%20at%2020.50.34.png)
 
 
 # Design Choice && Challenges
